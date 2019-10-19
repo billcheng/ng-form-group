@@ -1,0 +1,32 @@
+{
+  "name": "ng-form-group",
+  "version": "1.0.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^3.4.0",
+    "@types/node": "^12.7.3",
+    "jasmine": "^3.4.0",
+    "jasmine-gherkin": "^1.0.0",
+    "nodemon": "^1.19.2",
+    "rollup": "^1.20.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-dts": "^1.1.6",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.24.0",
+    "ts-node": "^8.3.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.2"
+  },
+  "scripts": {
+    "build": "rollup -c -m",
+    "dev": "rollup -c -w",
+    "test": "ts-node -P ./spec/tsconfig.json ./node_modules/jasmine/bin/jasmine src/**/*.spec.ts",
+    "test:watch": "nodemon --ext ts --exec \"npm test\""
+  },
+  "files": [
+    "dist"
+  ]
+}
