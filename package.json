@@ -1,5 +1,5 @@
 {
-  "name": "ng-form-group",
+  "name": "nodejs-ng-form",
   "version": "1.0.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

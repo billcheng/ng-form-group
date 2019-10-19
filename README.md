@@ -1,5 +1,14 @@
-# ng-form-group
+# nodejs-ng-form
 Similar to Angular Reactive Form "API" but on the server side.
+
+# How To Install
+```bash
+npm i nodejs-ng-form
+```
+or
+```bash
+yarn nodejs-ng-form
+```
 
 # Example
 ```javascript
