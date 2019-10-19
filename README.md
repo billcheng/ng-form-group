@@ -12,7 +12,7 @@ yarn nodejs-ng-form
 
 # Example
 ```javascript
-import { formBuilder } from 'ng-form-group'
+import { formBuilder } from 'nodejs-ng-form'
 
 function validate(name, address, city, zipcode) {
     const form = formBuilder.group({
