@@ -36,7 +36,7 @@ export default [
 			}) // so Rollup can convert TypeScript to JavaScript
 		],
 		output: [
-			{ file: pkg.main, format: 'cjs' },
+			{ file: 'dist/index.js', format: 'cjs' },
 			// { file: pkg.module, format: 'es' }
 		]
 	}
